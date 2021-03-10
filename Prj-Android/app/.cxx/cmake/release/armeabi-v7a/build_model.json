@@ -1,0 +1,74 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android",
+      "sdkFolder": "/Users/seachal/DevelopmentEnvironment/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app",
+      "makeFile": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/src/main/cpp/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/.cxx",
+      "cxxFolder": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/.cxx",
+      "ndkFolder": "/Users/seachal/DevelopmentEnvironment/Android/sdk/ndk/android-ndk-r16b",
+      "ndkVersion": "16.1.4479499",
+      "ndkSupportedAbiList": [
+        "ARMEABI",
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "MIPS",
+        "MIPS64",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "-DANDROID_STL\u003dgnustl_static"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [
+      "-std\u003dc++11"
+    ],
+    "variantName": "release",
+    "soFolder": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/build/intermediates/cmake/release/lib",
+    "objFolder": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/build/intermediates/cmake/release/obj",
+    "jsonFolder": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/.cxx/cmake/release",
+    "gradleBuildOutputFolder": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/.cxx/cxx/release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 19,
+  "cxxBuildFolder": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/.cxx/cmake/release/armeabi-v7a",
+  "jsonFile": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/.cxx/cmake/release/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/.cxx/cxx/release/armeabi-v7a",
+  "objFolder": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/build/intermediates/cmake/release/obj/armeabi-v7a",
+  "buildCommandFile": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/.cxx/cmake/release/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/.cxx/cmake/release/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/.cxx/cmake/release/armeabi-v7a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/.cxx/cxx/release/armeabi-v7a/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/.cxx/cxx/release/armeabi-v7a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/.cxx/cxx/release/armeabi-v7a/build_generation_state.json",
+    "cacheKeyFile": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/.cxx/cxx/release/armeabi-v7a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/.cxx/cxx/release/armeabi-v7a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/.cxx/cxx/release/armeabi-v7a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/.cxx/cxx/release/armeabi-v7a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/.cxx/cmake/release/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/.cxx/cmake/release/armeabi-v7a/compile_commands.json"
+}

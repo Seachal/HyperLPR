@@ -1,0 +1,11 @@
+# ninja log v5
+5	4198	0	CMakeFiles/hyperlpr.dir/src/Recognizer.cpp.o	5854077c9c13876
+10	4208	0	CMakeFiles/hyperlpr.dir/src/CNNRecognizer.cpp.o	a96b8413064c5cd6
+4	4288	0	CMakeFiles/hyperlpr.dir/src/FastDeskew.cpp.o	ead344c8a241e9e6
+2	4395	0	CMakeFiles/hyperlpr.dir/src/PlateDetection.cpp.o	5dc88efb95c2bc61
+11	4417	0	CMakeFiles/hyperlpr.dir/src/SegmentationFreeRecognizer.cpp.o	6b274dc1760726bf
+6	4493	0	CMakeFiles/hyperlpr.dir/src/FineMapping.cpp.o	84d3d9b9051465ce
+3	4552	0	CMakeFiles/hyperlpr.dir/src/Pipeline.cpp.o	192b5749871105
+1	4615	0	CMakeFiles/hyperlpr.dir/javaWarpper.cpp.o	780b951b25f5b4f1
+2	4646	0	CMakeFiles/hyperlpr.dir/src/PlateSegmentation.cpp.o	3aaea673115227f5
+4646	5461	0	/Users/seachal/Documents/SeachalGit/Android/HyperLPR/Prj-Android/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhyperlpr.so	fa03a4928c05d0a6
