@@ -227,6 +227,11 @@ public class MainActivity extends Activity implements AlertDialog.OnClickListene
         return img_path;
     }
 
+    /**
+     * 根据文件路径，解析出 Bitmap
+     * @param path
+     * @return
+     */
     public static Bitmap decodeImage(String path) {
         Bitmap res;
         try {
@@ -262,6 +267,11 @@ public class MainActivity extends Activity implements AlertDialog.OnClickListene
         return null;
     }
 
+    /**
+     * 点击识别时的简单识别，
+     * @param bmp
+     * @param dp
+     */
     public void SimpleRecog(Bitmap bmp,int dp)
     {
 
@@ -376,8 +386,11 @@ public class MainActivity extends Activity implements AlertDialog.OnClickListene
 
     @Override
     public void onClick(DialogInterface dialogInterface, int which) {
+        Log.d("dialogInterface:","which:"+which);
         switch (which){
+//            拍照
             case 1:
+                Log.d("dialogInterface:","which1:"+which);
                 Intent getImageByCamera = new Intent(
                         "android.media.action.IMAGE_CAPTURE");
                 ContentValues values = new ContentValues(1);
@@ -389,6 +402,7 @@ public class MainActivity extends Activity implements AlertDialog.OnClickListene
                 startActivityForResult(getImageByCamera, REQUEST_CODE_IMAGE_CAMERA);
                 break;
             case 0:
+                Log.d("dialogInterface:","which0:"+which);
                 Intent getImageByalbum = new Intent(Intent.ACTION_GET_CONTENT);
                 getImageByalbum.addCategory(Intent.CATEGORY_OPENABLE);
                 getImageByalbum.setType("image/jpeg");
@@ -405,7 +419,7 @@ public class MainActivity extends Activity implements AlertDialog.OnClickListene
             case R.id.button:
                 new AlertDialog.Builder(this)
                         .setTitle("打开方式")
-                        .setItems(new String[]{"打开图片"}, this)
+                        .setItems(new String[]{"打开图片","拍照"}, this)
                         .show();
                 break;
             case R.id.button_recog:
